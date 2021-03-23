@@ -28,7 +28,7 @@ public class SList<E> {
     }
     
     public E first(){
-        return (E)head;
+        return head.getElement();
     }
     
     public int size(){
